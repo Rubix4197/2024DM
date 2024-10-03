@@ -34,15 +34,29 @@ changeCandidateMargins = (candidate, boost) => {
   
       Rubix–Lead Writer and Coder</p>
       Gloryofrome–Co-Writer and Advisor</p>
-      Script–Banner Designer(Democrats Vs Trump)</p>
+    Ohas–Effects Coder</p>
+      Oohweeooh–Assistant Coder and Writer</p>
+      Outfox–Assistant Coder and Writer</p>
+      Emmy the Gremlin–Assistant FoPo Writer and Style Designer</p>
+      Pedro–Assistant FoPo Writer and Style Designer</p>
+      Onkel Danny–Assistant Coder</p>
+      Bobby–Assistant FoPo Writer</p>
+      Hamcrackers–Style Designer</p>
+  Script–Banner Designer(Democrats Vs Trump)</p>
       El Prez–Banner Designer(Democratic Infinity)</p>
   </p>
       <h4 style='margin-top: 0.5em;'>Director’s Commentary</h4>
-      <p>XXXX.</p>
+      <p>Hey!</p>
+This mod has been a lot–and taken a lot from me.</p>
+For quite a while, I thought I’d have more to say on this–but we’re within 12 hours of release as I write this, and I’m frankly very drained at the moment. Democracy’s Martyrdom as the idea first came to me in late February, and now, in early October, we’ve made it. The scores of questions and errors and CYOA and everything I learned is going to stay with me for a while, as are the amount of people who have expressed such kindness and an eagerness to play the finished product. I truly do hope I live up to expectations.</p>
+Anywho–onto talking about the mod. It’s been a lot, and I bet there will be a contingent of disappointed people here. Yes, it’s a fakeout. Yes, it’s not really an 8 candidate mod like many were expecting—though there are 8 different nominees who can all have questions where they are the playable ones. Given the saturation of 2024 mods, I don’t expect this to be too sorely felt as a missed opportunity.</p>
+I’m so incredibly grateful to each and every person who worked on this mod–I expected it to just be me bugging Rome about it for a few months and I’d release it in early July, but now it’s a huge staff team mod with a lot of people working on it, and it’s been delayed 2 official times Either way, we’re here now.</p>
+Thank you so much, everyone.</p>
       <h4>Special Thanks</h4>
-      XXXX<br><br>
-      XXXX<br></p>
-      <p>- Rubix, XX/XX/XXXX</p>
+      Hamcrackers, as always, for being one of the most wonderful people I know.<br><br>
+      A certain IRL friend of mine who I’m grateful to for being so supportive.<br></p>
+      Lawrence Eagleburger, for having that name and inspiring this whole mod.<br></p>
+      <p>- Rubix, 10/03/2024</p>
       <img src='' width='800px'></img><br><br>
 
       <p></p>
@@ -275,22 +289,41 @@ var usafail = 0;
   campaignTrail_temp.election_json = JSON.parse("[{\"model\": \"campaign_trail.election\", \"pk\": 20, \"fields\": {\"year\": 2020, \"summary\": \"<p>America faces down the 2024 election in fear and horror of what is to come, yet nobody seems to be able to stop its inevitability.</p><p>Since 2020, this rematch between Joe Biden and Donald Trump has been anticipated–yet with both candidates starkly unpopular and facing waves of discontent from within their own party, discontent is festering in the air. Few want the two oldest candidates ever to be nominated against each other, but both parties have returned landslides in favor of their Presidents.</p><p> With major wars abroad in both Ukraine and Israel, a mounting border crisis raising tensions, and criminal prosecutions hounding Trump at every turn, America stands at the brink. Can it be saved? </p>\", \"image_url\": \"https://media.cnn.com/api/v1/images/stellar/prod/230422192329-biden-trump-split-042223.jpg?c=16x9&q=h_833,w_1480,c_fill\", \"winning_electoral_vote_number\": 270, \"advisor_url\": \"https://i.imgur.com/ukcJ3Pg.png\", \"recommended_reading\": \"https://media.cnn.com/api/v1/images/stellar/prod/230422192329-biden-trump-split-042223.jpg?c=16x9&q=h_833,w_1480,c_fill\", \"has_visits\": 1, \"no_electoral_majority_image\": \"/static/images/2012-no-majority.jpg\"}}]");
   happened = true;
   campaignTrail_temp.election_json[0].fields.recommended_reading = `
-  <div style='overflow-y:scroll;height:370px;'>
+ <div style='overflow-y:scroll;height:370px;'>
       <h1>2024: Democracy’s Martyrdom</h1>
-      <h4 style='margin-top: 0.5em;'>Credits</h4>
-      <p>Rubix–Lead Writer and Coder</p>
-      <p>Gloryofrome–Co-Writer and Advisor</p>
-      <p>Script–Banner Designer(Democrats Vs Trump)</p>
-      <p>El Prez–Banner Designer(Democratic Infinity)</p>
+       <h4 style='margin-top: 0.5em;'>Credits</h4>
+  
+      Rubix–Lead Writer and Coder</p>
+      Gloryofrome–Co-Writer and Advisor</p>
+    Ohas–Effects Coder</p>
+      Oohweeooh–Assistant Coder and Writer</p>
+      Outfox–Assistant Coder and Writer</p>
+      Emmy the Gremlin–Assistant FoPo Writer and Style Designer</p>
+      Pedro–Assistant FoPo Writer and Style Designer</p>
+      Onkel Danny–Assistant Coder</p>
+      Bobby–Assistant FoPo Writer</p>
+      Hamcrackers–Style Designer</p>
+  Script–Banner Designer(Democrats Vs Trump)</p>
+      El Prez–Banner Designer(Democratic Infinity)</p>
+  </p>
       <h4 style='margin-top: 0.5em;'>Director’s Commentary</h4>
-      <p>XXXX.</p>
+      <p>Hey!</p>
+This mod has been a lot–and taken a lot from me.</p>
+For quite a while, I thought I’d have more to say on this–but we’re within 12 hours of release as I write this, and I’m frankly very drained at the moment. Democracy’s Martyrdom as the idea first came to me in late February, and now, in early October, we’ve made it. The scores of questions and errors and CYOA and everything I learned is going to stay with me for a while, as are the amount of people who have expressed such kindness and an eagerness to play the finished product. I truly do hope I live up to expectations.</p>
+Anywho–onto talking about the mod. It’s been a lot, and I bet there will be a contingent of disappointed people here. Yes, it’s a fakeout. Yes, it’s not really an 8 candidate mod like many were expecting—though there are 8 different nominees who can all have questions where they are the playable ones. Given the saturation of 2024 mods, I don’t expect this to be too sorely felt as a missed opportunity.</p>
+I’m so incredibly grateful to each and every person who worked on this mod–I expected it to just be me bugging Rome about it for a few months and I’d release it in early July, but now it’s a huge staff team mod with a lot of people working on it, and it’s been delayed 2 official times Either way, we’re here now.</p>
+Thank you so much, everyone.</p>
       <h4>Special Thanks</h4>
-      <p>XXXX<br><br>XXXX<br></p>
-      <p>- Rubix, XX/XX/XXXX</p>
+      Hamcrackers, as always, for being one of the most wonderful people I know.<br><br>
+      A certain IRL friend of mine who I’m grateful to for being so supportive.<br></p>
+      Lawrence Eagleburger, for having that name and inspiring this whole mod.<br></p>
+      <p>- Rubix, 10/03/2024</p>
       <img src='' width='800px'></img><br><br>
+
       <p></p>
   </div>
   `;
+
   
   
     demcandidate = "Joe Biden";
@@ -1230,19 +1263,37 @@ if (usafail < 2 && intervention2 == true){
   const style_overwrite = document.createElement("style");
   campaignTrail_temp.election_json = JSON.parse("[{\"model\": \"campaign_trail.election\", \"pk\": 20, \"fields\": {\"year\": 2020, \"summary\": \"<p>America faces down the 2024 election in fear and horror of what is to come, yet nobody seems to be able to stop its inevitability.</p><p>Since 2020, this rematch between Joe Biden and Donald Trump has been anticipated–yet with both candidates starkly unpopular and facing waves of discontent from within their own party, discontent is festering in the air. Few want the two oldest candidates ever to be nominated against each other, but both parties have returned landslides in favor of their Presidents.</p><p> With major wars abroad in both Ukraine and Israel, a mounting border crisis raising tensions, and criminal prosecutions hounding Trump at every turn, America stands at the brink. Can it be saved? </p>\", \"image_url\":                                                                                                                                                                                                                 \"https://media.cnn.com/api/v1/images/stellar/prod/230422192329-biden-trump-split-042223.jpg?c=16x9&q=h_833,w_1480,c_fill\", \"winning_electoral_vote_number\": 270, \"advisor_url\": \"https://i.imgur.com/nJeAXVx.png\", \"recommended_reading\": \"https://i.imgur.com/nJeAXVx.png\", \"has_visits\": 0, \"no_electoral_majority_image\": \"/static/images/2012-no-majority.jpg\"}}]");
   campaignTrail_temp.election_json[0].fields.recommended_reading = `
-  <div style='overflow-y:scroll;height:370px;'>
+ <div style='overflow-y:scroll;height:370px;'>
       <h1>2024: Democracy’s Martyrdom</h1>
-      <h4 style='margin-top: 0.5em;'>Credits</h4>
-      <p>Rubix–Lead Writer and Coder</p>
-      <p>Gloryofrome–Co-Writer and Advisor</p>
-      <p>Script–Banner Designer(Democrats Vs Trump)</p>
-      <p>El Prez–Banner Designer(Democratic Infinity)</p>
+       <h4 style='margin-top: 0.5em;'>Credits</h4>
+  
+      Rubix–Lead Writer and Coder</p>
+      Gloryofrome–Co-Writer and Advisor</p>
+    Ohas–Effects Coder</p>
+      Oohweeooh–Assistant Coder and Writer</p>
+      Outfox–Assistant Coder and Writer</p>
+      Emmy the Gremlin–Assistant FoPo Writer and Style Designer</p>
+      Pedro–Assistant FoPo Writer and Style Designer</p>
+      Onkel Danny–Assistant Coder</p>
+      Bobby–Assistant FoPo Writer</p>
+      Hamcrackers–Style Designer</p>
+  Script–Banner Designer(Democrats Vs Trump)</p>
+      El Prez–Banner Designer(Democratic Infinity)</p>
+  </p>
       <h4 style='margin-top: 0.5em;'>Director’s Commentary</h4>
-      <p>XXXX.</p>
+      <p>Hey!</p>
+This mod has been a lot–and taken a lot from me.</p>
+For quite a while, I thought I’d have more to say on this–but we’re within 12 hours of release as I write this, and I’m frankly very drained at the moment. Democracy’s Martyrdom as the idea first came to me in late February, and now, in early October, we’ve made it. The scores of questions and errors and CYOA and everything I learned is going to stay with me for a while, as are the amount of people who have expressed such kindness and an eagerness to play the finished product. I truly do hope I live up to expectations.</p>
+Anywho–onto talking about the mod. It’s been a lot, and I bet there will be a contingent of disappointed people here. Yes, it’s a fakeout. Yes, it’s not really an 8 candidate mod like many were expecting—though there are 8 different nominees who can all have questions where they are the playable ones. Given the saturation of 2024 mods, I don’t expect this to be too sorely felt as a missed opportunity.</p>
+I’m so incredibly grateful to each and every person who worked on this mod–I expected it to just be me bugging Rome about it for a few months and I’d release it in early July, but now it’s a huge staff team mod with a lot of people working on it, and it’s been delayed 2 official times Either way, we’re here now.</p>
+Thank you so much, everyone.</p>
       <h4>Special Thanks</h4>
-      <p>XXXX<br><br>XXXX<br></p>
-      <p>- Rubix, XX/XX/XXXX</p>
+      Hamcrackers, as always, for being one of the most wonderful people I know.<br><br>
+      A certain IRL friend of mine who I’m grateful to for being so supportive.<br></p>
+      Lawrence Eagleburger, for having that name and inspiring this whole mod.<br></p>
+      <p>- Rubix, 10/03/2024</p>
       <img src='' width='800px'></img><br><br>
+
       <p></p>
   </div>
   `;
@@ -4272,7 +4323,7 @@ else if (warrennominated == true && out == "win" && congress == "Dem") {
 }
 else if (warrennominated == true && out == "win" && israeliaid == true) { 
     e.header = "<h2 style='color: black;'>Israel Vows “Total Security Control” of Iran after Warren Ultimatum</h2>"
-    e.pages = ["<p><style>p { color: black; }</style><div style='max-height: 215px; overflow-y: auto; text-align: left; padding: 0px; margin: 0px, line-height: 1.4;'><p style='margin-left: 7px; color: black;'>TEL AVIV, ISRAEL, 5/21/2025</p><p>Today, the Israeli Defense Ministry, led by XXXX, has responded to Warren’s ultimatum for military withdrawal after a year of engagement in Iran. Though Government officials and smaller security forces of American and coalition forces will remain to keep the peace--clearly mindful of the fallout of the Afghan war in 2021--Warren’s plan for the establishment of a stable Iranian state includes a withdrawal of Israeli troops to reduce violence against citizens and soldiers for the forseeable future.</p><p>While praised by many on the left in America, the plan is both contentious at home and almost unanimously rebuked in Israel, leading to many worrying about it’s feasibility. In a statement released by the Israeli Defense Ministry, the IDF states that “President Warren is at full liberty to withdraw American forces, but Israel will maintain total security control over the rogue and unstable state of Iran for the forseeable future.”</p><p>The statement further lampoons the President for supposedly abandoning women’s rights and the rights of the LGBTQ+ population internationally--oft attacked by the previous Iranian Government--by beginning a gradual withdrawal of American forces. Though under pressure for it’s actions in the Gaza strip, Israel has often defended their actions by pointing to the rights of LGBTQ+ people under the control of Hamas.</p><p>Senator Brad Wilson of Utah has roundly condemned the move, being one of the first Republicans to do so on the Senate floor---calling it “nearly unfathomable that someone who survived March 7th could dare to weaken American National Security by so hastily disengaging from Iran.” President Warren’s honeymoon phase appears to be on his way out, with this move and a rocky economy seemingly diminishing her initial popular appeal.</p><p>Ending 17 of 50.</p>"]
+    e.pages = ["<p><style>p { color: black; }</style><div style='max-height: 215px; overflow-y: auto; text-align: left; padding: 0px; margin: 0px, line-height: 1.4;'><p style='margin-left: 7px; color: black;'>TEL AVIV, ISRAEL, 5/21/2025</p><p>Today, the Israeli Defense Ministry has responded to Warren’s ultimatum for military withdrawal after a year of engagement in Iran. Though Government officials and smaller security forces of American and coalition forces will remain to keep the peace--clearly mindful of the fallout of the Afghan war in 2021--Warren’s plan for the establishment of a stable Iranian state includes a withdrawal of Israeli troops to reduce violence against citizens and soldiers for the forseeable future.</p><p>While praised by many on the left in America, the plan is both contentious at home and almost unanimously rebuked in Israel, leading to many worrying about it’s feasibility. In a statement released by the Israeli Defense Ministry, the IDF states that “President Warren is at full liberty to withdraw American forces, but Israel will maintain total security control over the rogue and unstable state of Iran for the forseeable future.”</p><p>The statement further lampoons the President for supposedly abandoning women’s rights and the rights of the LGBTQ+ population internationally--oft attacked by the previous Iranian Government--by beginning a gradual withdrawal of American forces. Though under pressure for it’s actions in the Gaza strip, Israel has often defended their actions by pointing to the rights of LGBTQ+ people under the control of Hamas.</p><p>Senator Brad Wilson of Utah has roundly condemned the move, being one of the first Republicans to do so on the Senate floor---calling it “nearly unfathomable that someone who survived March 7th could dare to weaken American National Security by so hastily disengaging from Iran.” President Warren’s honeymoon phase appears to be on his way out, with this move and a rocky economy seemingly diminishing her initial popular appeal.</p><p>Ending 17 of 50.</p>"]
     e.image = "https://media.discordapp.net/attachments/1274866521918804050/1283079969001705535/time-100-2017-elizabeth-warren.png?ex=66feb1d7&is=66fd6057&hm=54430ca3731f56b446ba98be68cec006a84f923b4901fd830490a38b5cb9f14f&=&format=webp&quality=lossless&width=337&height=389";
     return construct(0);
 }
