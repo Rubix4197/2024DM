@@ -182,26 +182,42 @@ back3 = function() {
     text = "<p>If you would have asked someone ten years ago if Donald J. Trump could be President, they would probably laugh and walk away. While once taken as nothing more than a joke, his campaign for President in 2016 ended up turning out massive crowds. And soon, he ended up uprooting Jeb Bush as the frontrunner. And despite seemingly every odd against him, from sexual assault and rape to his seemingly ridiculous policy. Donald J. Trump won the election, narrowly beating Hillary while losing the popular vote. <br><br>Since then, President Trump has gone forward with his ‘Make America Great Again” agenda. He’s managed to overturn the A.C.A. and begin construction on the border wall with Mexico, and he’s even withdrawn troops from many of America’s bases in Europe and the middle east. <br><br><button onclick='next3()'>More</button>"
     document.getElementById("candidate_summary").children[1].innerHTML = text
 }
-const recommendedReading = `
-<div style='overflow-y:scroll;height:370px;'>
-    <h1>2024: Democracy’s Martyrdom</h1>
-     <h4 style='margin-top: 0.5em;'>Credits</h4>
+  const recommendedReading = `
+  <div style='overflow-y:scroll;height:370px;'>
+      <h1>2024: Democracy’s Martyrdom</h1>
+       <h4 style='margin-top: 0.5em;'>Credits</h4>
+  
+      Rubix–Lead Writer and Coder</p>
+      Gloryofrome–Co-Writer and Advisor</p>
+    Ohas–Effects Coder</p>
+      Oohweeooh–Assistant Coder and Writer</p>
+      Outfox–Assistant Coder and Writer</p>
+      Emmy the Gremlin–Assistant FoPo Writer and Style Designer</p>
+      Pedro–Assistant FoPo Writer and Style Designer</p>
+      Onkel Danny–Assistant Coder</p>
+      Bobby–Assistant FoPo Writer</p>
+      Hamcrackers–Style Designer</p>
+  Script–Banner Designer(Democrats Vs Trump)</p>
+      El Prez–Banner Designer(Democratic Infinity)</p>
+  </p>
+      <h4 style='margin-top: 0.5em;'>Director’s Commentary</h4>
+      <p>Hey!</p>
+This mod has been a lot–and taken a lot from me.</p>
+For quite a while, I thought I’d have more to say on this–but we’re within 12 hours of release as I write this, and I’m frankly very drained at the moment. Democracy’s Martyrdom as the idea first came to me in late February, and now, in early October, we’ve made it. The scores of questions and errors and CYOA and everything I learned is going to stay with me for a while, as are the amount of people who have expressed such kindness and an eagerness to play the finished product. I truly do hope I live up to expectations.</p>
+Anywho–onto talking about the mod. It’s been a lot, and I bet there will be a contingent of disappointed people here. Yes, it’s a fakeout. Yes, it’s not really an 8 candidate mod like many were expecting—though there are 8 different nominees who can all have questions where they are the playable ones. Given the saturation of 2024 mods, I don’t expect this to be too sorely felt as a missed opportunity.</p>
+I’m so incredibly grateful to each and every person who worked on this mod–I expected it to just be me bugging Rome about it for a few months and I’d release it in early July, but now it’s a huge staff team mod with a lot of people working on it, and it’s been delayed 2 official times Either way, we’re here now.</p>
+Thank you so much, everyone.</p>
+      <h4>Special Thanks</h4>
+      Hamcrackers, as always, for being one of the most wonderful people I know.<br><br>
+      A certain IRL friend of mine who I’m grateful to for being so supportive.<br></p>
+      Lawrence Eagleburger, for having that name and inspiring this whole mod.<br></p>
+      <p>- Rubix, 10/03/2024</p>
+      <img src='' width='800px'></img><br><br>
 
-    Rubix–Lead Writer and Coder</p>
-    Gloryofrome–Co-Writer and Advisor</p>
-    Script–Banner Designer(Democrats Vs Trump)</p>
-    El Prez–Banner Designer(Democratic Infinity)</p>
-</p>
-    <h4 style='margin-top: 0.5em;'>Director’s Commentary</h4>
-    <p>XXXX.</p>
-    <h4>Special Thanks</h4>
-    XXXX<br><br>
-    XXXX<br></p>
-    <p>- Rubix, XX/XX/XXXX</p>
-    <img src='' width='800px'></img><br><br>
-    <p></p>
-</div>
-`;
+      <p></p>
+  </div>
+  `;
+
 
 // Now you can use the recommendedReading variable whenever you need to refer to this section in your code.
 
