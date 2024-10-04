@@ -1858,6 +1858,7 @@ if (usa == true) {
           var parentElement = mapButton.parentNode;
           if (parentElement) {              
               // Remove the click event listener  
+                            mapButton.removeEventListener('click', yourClickHandlerFunction);
               // Remove the button after a short delay (adjust as needed)
               setTimeout(() => {
                   parentElement.removeChild(mapButton);
@@ -2893,7 +2894,10 @@ securitymeter -= 1;
           }
       }
   }
-  if (ans === 600614 && (natofail + unfail + usfail >= 1)) {
+    if (campaignTrail_temp.question_number === 49) {
+ changeCandidateMargins(202, 0.2);
+  }
+  if (ans === 600614 && (natofail + unfail + usafail >= 1)) {
       for (let i = 0; i < campaignTrail_temp.answers_json.length; i++) {
           const currentAns = campaignTrail_temp.answers_json[i];
           if (currentAns["pk"] === 160181) {
@@ -4629,7 +4633,6 @@ function moveMapFooter() {
 
 // Run the function every 100 milliseconds (adjust as needed)
 setInterval(moveMapFooter, 100);
-
 
 
 
