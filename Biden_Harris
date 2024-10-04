@@ -2897,6 +2897,9 @@ securitymeter -= 1;
     if (campaignTrail_temp.question_number === 49) {
  changeCandidateMargins(202, 0.2);
   }
+    if (campaignTrail_temp.question_number === 27) {
+ changeCandidateMargins(202, 0.2);
+  }
   if (ans === 600614 && (natofail + unfail + usafail >= 1)) {
       for (let i = 0; i < campaignTrail_temp.answers_json.length; i++) {
           const currentAns = campaignTrail_temp.answers_json[i];
@@ -4188,6 +4191,7 @@ else if (out == "tie" && demcandidate == "Denis McDonough"){
     return construct(0);	
 }
 else if (out == "win" && demcandidate == "Denis McDonough" && aa[0].electoral_votes >= 395){
+       unlockAchievement("Glory, Glory") 
     e.header = "<h2>Election Night</h2>"
     e.pages = ["<p><div style='max-height: 215px; overflow-y: auto; text-align: left; padding: 0px; margin: 0px, line-height: 1.4;'><p style='margin-left: 7px;'></p><p>You watch the results roll in from the White House. You vow to yourself you’ll watch it to it’s end--and to your credit, you do. The night grows darker and darker as the results of Kentucky and Vermont change to the results of Idaho and New Mexico. The harried paper trail of exit polls and preliminary returns and flummoxed aides along with eventually settle down as they all realize there’s nothing left to do but sit and wait and watch.</p><p>Eventually Hawaii is called as well, with America no closer to electing a President. You field calls from your running mate, your cabinet, a handful of friends and family, and foreign leaders wishing you luck as the counting ticks on. A TV in the background blares the announcements from Trump HQ, the allegations of mass voter fraud by illegal immigrants. You try to tune it out, but it’s not long before you demand it be turned off.</p><p>As the earliest hours of the morning begin to loom over you, you see people trickle out of the room slowly. Some are getting sleep, some are finding a meal they haven’t had time to eat in a few hours, but you remain, glued to the screen. Minnesota, thank God, is called, and so are Virginia and New Hampshire. You feel the energy in the air turn electric, and you know that before long, there’s going to be a result where it matters most. Before that happens, though, you pray.</p><p>You pray for your victory, because you cannot bear what would happen if you lose.</p><p>You pray for your country, for win or lose, it will be challenged.</p><p>You pray for your family--Kari didn’t ask for this, Addie and Liam’s lives are upside down, and </p><p>God, Teddy’s still in school. What’s your victory going to do for them?</p><p>You pray, for one brief moment, that you’ll be able to wake up tomorrow and find this has just been a horrid dream. You ask God if he’ll answer any of your prayers. You wonder if Trump prays.</p><p></p><p>And then, an answer.</p><p><u>Victory.</u></p><p>The world comes crashing down upon you like it did when you first took the Oath, and you know now your mission won’t be done for at least another 4 years. You can’t shake the knowledge that this shouldn’t have been you, but that thought can’t live in your head forever.</p><p>There’s work to get done.<p><button onclick='ending48more()'>More</button></p></div>"]
     e.image = "https://i.imgur.com/iDCglKw.jpeg";
