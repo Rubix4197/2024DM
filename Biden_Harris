@@ -13,6 +13,8 @@ if (typeof unlockAchievement !== 'function') {
             // Add this achievement to the set to mark it as unlocked
             window.unlockedAchievements.add(achievementName);
         } else {
+            // Optional: Do something if the achievement is already unlocked
+            console.log("Achievement '" + achievementName + "' has already been unlocked.");
         }
     };
 }
@@ -2757,6 +2759,9 @@ if (intervention2 == true) {
     if(ans == 30121){        
  bipartisanmeter += 1;   
      }
+    if(ans == 10122){        
+unlockAchievement("Identity War")     
+}
     if(ans == 5206 || ans == 5207 || ans == 52051){        
  economymeter -= 2;   
      }
