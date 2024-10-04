@@ -1,11 +1,21 @@
 // Check if unlockAchievement is already defined as a function
 if (typeof unlockAchievement !== 'function') {
+    // Store achievements that have already been unlocked
+    window.unlockedAchievements = new Set();
+
     // Define the unlockAchievement function
     window.unlockAchievement = function(achievementName) {
-        alert("Unlocked Achievement: " + achievementName);
+        // Check if this achievement has already been unlocked
+        if (!window.unlockedAchievements.has(achievementName)) {
+            // Show the achievement popup
+            alert("Unlocked Achievement: " + achievementName);
+            
+            // Add this achievement to the set to mark it as unlocked
+            window.unlockedAchievements.add(achievementName);
+        } else {
+        }
     };
 }
-
 // Example usage
 changeCandidateMargins = (candidate, boost) => {
     for (i in e.candidate_state_multiplier_json) {
